@@ -1,0 +1,21 @@
+{
+  "name": "stp-statusboard/stp-statusboard-base",
+  "description": "Base classes for stp-statusboard project",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Plachta",
+      "email": "michal.plachta@schibsted.pl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "twig/twig": "1.9.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "StpBoard\\Base\\": "src"
+    }
+  }
+}
